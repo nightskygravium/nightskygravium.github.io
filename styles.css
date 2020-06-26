@@ -56,15 +56,16 @@ body {
 #badges {
   text-align: center;  
   margin-left: 3rem;
+  size: 80%;
 }
 
 #google-badge {
-  height: 11rem;
+  height: 8.65rem;
 }
 
 #apple-badge {
-  height: 7.5rem;
-  margin-bottom: 1.75rem;
+  height: 6rem;
+  margin-bottom: 1.3rem;
 }
 
 .content {
@@ -98,8 +99,8 @@ h6 {
 }
 
 p {
-	font-family: "Open Sans";
-	font-size: 1.8rem;
+  font-family: "Open Sans";
+  font-size: 1.8rem;
 }
 
 hr {
