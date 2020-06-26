@@ -45,12 +45,12 @@ body {
 #feature {
   margin: auto;
   width: 100%;
-  margin-top: 3rem;
   text-align: center;  
 }
 
 #feature img {
   width: 1024px;
+  margin-top: 3rem;
 }
 
 #badges {
