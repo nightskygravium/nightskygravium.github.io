@@ -101,6 +101,11 @@ h6 {
 p {
   font-family: "Open Sans";
   font-size: 1.8rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
 }
 
 hr {
