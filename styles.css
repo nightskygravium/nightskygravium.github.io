@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1000;
+  background: linear-gradient(270deg, #f2b859, #59f2c4, #dc7eff, #ff7e7e, #7ed0ff, #fff77e);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: BackgroundScroll 50s ease infinite;
+    -moz-animation: BackgroundScroll 50s ease infinite;
+    animation: BackgroundScroll 50s ease infinite;
+}
+
+@-webkit-keyframes BackgroundScroll {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundScroll {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundScroll {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body {
+  /*text-align: center;*/
+}
+
+#main {
+  margin: auto;  
+  /*width: 1024px;*/
+  width: 100%;
+}
+
+#feature {
+  margin: auto;
+  width: 100%;
+  text-align: center;  
+}
+
+#feature img {
+  /*max-width: 1024px;*/
+  width: 1024px;
+  /*width: 100%;*/
+}
+
+#badges {
+  text-align: center;  
+  width: 100%;
+  margin-left: 1rem;
+}
+
+#google-badge {
+  height: 11rem;
+}
+
+#apple-badge {
+  height: 7.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.content {
+  width: 1024px;
+  margin: auto;
+}
+
+.feature-text {
+  /*padding: 2.2rem;*/
+}
+
+.centered {
+  text-align: center;
+}
+
+.body-text {
+  padding: 2.2rem;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 1rem;  
+}
+
+/*img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+h6 {
+  font-family: "Open Sans";
+  font-size: 2.2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+p {
+	font-family: "Open Sans";
+	font-size: 1.8rem;
+}
+
+hr {
+  border: 1px solid black;
+  margin-top: 2rem;
+}
