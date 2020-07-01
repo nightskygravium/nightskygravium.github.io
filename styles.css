@@ -87,7 +87,7 @@ body {
 
 #badges {
   text-align: center;  
-  margin-left: 3em;
+  margin-left: 20vw;
 }
 
 #google-badge {
@@ -123,16 +123,33 @@ body {
   height: 0.9em !important;
 }
 
-h6 {
+.privacy-spacing {
+  padding: 1em;
+}
+
+h1 {
   font-family: "Open Sans";
   font-size: 2.2rem;
+  padding: 1em;
+  text-align: center;	
+}
+h2 {
+  font-family: "Open Sans";
+  font-size: 3rem;
+  padding: 1em;
+  text-align: center;
+}
+
+h6 {
+  font-family: "Open Sans";
+  font-size: 2.5rem;
   padding: 1em;
   text-align: center;
 }
 
 p {
-	font-family: "Open Sans";
-	font-size: 2rem;
+  font-family: "Open Sans";
+  font-size: 2rem;
   color: black;
 }
 
