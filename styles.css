@@ -86,17 +86,20 @@ body {
 }
 
 #badges {
-  text-align: center;  
-  margin-left: 5vw;
+  height: 10em;
 }
 
 #google-badge {
   height: 8.65em;
+  margin-right: 5em;
+  float: right;
 }
 
 #apple-badge {
   height: 6em;
-  margin-bottom: 1.3em;
+  padding: 1.3em;
+  margin-left: 5em;
+  float: left;
 }
 
 .content {
